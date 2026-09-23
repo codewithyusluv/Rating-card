@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rating Card Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts/capstone.js" defer></script>
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="star">
+        <img src="images/icon-star.svg" alt="star icon" />
+      </div>
+
+      <h1>How did we do?</h1>
+
+      <p>
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+
+      <div class="ratings">
+        <button class="rate-btn" data-value="1">1</button>
+        <button class="rate-btn" data-value="2">2</button>
+        <button class="rate-btn" data-value="3">3</button>
+        <button class="rate-btn" data-value="4">4</button>
+        <button class="rate-btn" data-value="5">5</button>
+      </div>
+
+      <button id="submit-btn">SUBMIT</button>
+    </div>
+
+    <div class="thank-you hidden">
+      <div class="tnkimage">
+        <img src="/images/illustration-thank-you.svg" alt="Thank-you" />
+      </div>
+      <p class="selected-rating"></p>
+
+      <h2>Thank You!</h2>
+
+      <p class="appreciate">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch
+      </p>
+    </div>
+  </body>
+</html>
